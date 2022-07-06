@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap');
+
+body{
+    display: unset;
+}
+
+.principal{
+    position: relative;
+    bottom: 50px;
+}
+
+.container {
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+/* Animation */
+@keyframes fade-in{
+    0%{ 
+        opacity: 0;
+        transform: translateX(500px);
+    }
+    100%{ 
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+section.module{
+    opacity: 0;
+    animation: fade-in 4s ease 0s 1;
+    -webkit-animation: fade-in 4s ease 0s 1;
+    -moz-animation: fade-in 4s ease 0s 1;
+    -o-animation: fade-in 4s ease 0s 1;
+
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    overflow-x: hidden;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+section.module p:last-child{
+    margin-bottom: 0;
+}
+
+.jarallax{
+    height: 400px;
+}
+
+@media all and (min-width: 600px) {
+    section.module h2 {
+        font-size: 42px;
+    }
+    section.module p {
+        font-size: 20px;
+    }
+    section.module.parallax h1 {
+        font-size: 96px;
+    }
+}
+@media all and (min-width: 960px) {
+    section.module.parallax h1 {
+        font-size: 160px;
+    }
+}

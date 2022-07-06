@@ -1,0 +1,24 @@
+{
+    "name": "UL Maps",
+    "short_name": "UL Maps",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white",
+    "orentation": "portrait_only",
+    "icons": [
+        {
+            "src": "assets/splashscreen/logo.png",
+            "sizes": "1024x1024",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "prefer_related_applications": false,
+    "related_applications": [
+        {
+            "platform": "play",
+            "id": "com.google.samples.apps.iosched"
+        }
+    ]
+}

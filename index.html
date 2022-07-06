@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- obligatoire pour s'adapter mode mobile -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" sizes="" href="assets/splashscreen/logo.png">
+    <meta name="description" content="Application DEMOES">
+
+    <!-- css -->
+    <link rel="stylesheet" href="stylesheets/introduction.css">
+
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="js/introduction.js"></script>
+    
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- pwa configuration d'installation -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/splashscreen/logo.png">
+    <meta name="apple-mobile-web-app-title" content="UL Maps">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar" content="white">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="white">
+    
+    <title>Introduction</title>
+</head>
+
+<body>
+<header>
+    <div class="fond image_2"></div>
+    <div class="fond image_1"></div>
+    <!-- fenêtre d'installation en manuel -->
+    <div class="d-modal fond alert-warning">
+        <div class="d-modal-content">
+            <div class="d-modal-head">
+                <div class="d-modal-head-left">Installation</div>
+                <div class="d-modal-head-right"></div>
+            </div>
+            <div class="d-modal-body">
+                <img class="install-img-2" src="https://unsplash.com/a/img/empty-states/photos.png"><br><br>
+                <div class="d-modal-body-right">
+                    <div class="d-modal-body-title">Votre navigateur n'est pas supporté, cliquez sur oui pour regarder manière manuel</div>
+                    <div>
+                        <div class="d-btn btn-annuler">Annuler</div>
+                        <div class="d-btn btn-display">Oui</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-modal fond alert-img">
+        <div class="d-modal-content">
+            <div class="d-modal-head">
+                <div class="d-modal-head-left">Installation</div>
+                <div class="d-modal-head-right close-img"></div>
+            </div>
+            <div class="d-modal-body body-img">
+                <div class="desc" id="alert-info">
+                    <!--<img class="install-img"><br><br>-->
+                    <div class="slide-container"></div><br>
+                    <div class="slide-dot"></div><br>
+                    <div class="d-modal-body-title">
+                        I. Cliquez sur le bouton de partage<br>
+                        II. Cliquez sur l'écran d'accueil<br>
+                        III. Cliquez sur Ajouter<br>
+                    </div>
+                    <div class="btn-bar">
+                        <div class="d-btn btn-ios">iOS</div>
+                        <div class="d-btn btn-android">Android</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="install">
+        <div class="titre">        
+            <div class="logo"></div>
+            <h3>UL Maps</h3>
+            <span class="arrow">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span>
+        </div>
+        <p>Installer UL Maps</p>
+    </div>
+    
+    <div class="fond image_3">
+        <div class="desc titre_1">Visites virtuels de campus</div>
+        <p class="desc titre_2">L’application sera sous la forme d’une carte de la université où l’on devra se placer physiquement à divers endroits à la manière en utilisant la réalité augmentée avec Flutter pour une 'visite virtuelle' des campus de l'université de Lorraine à Nancy.</p>
+        <center>
+            <a href="html/introduction.html"><button type="button" class="center btn btn-lg btn-primary btn-suivant">Suivant</button></a>
+            <a href="html/geo.html"><button type="button" class="center btn btn-outline btn-lg text-white border border-2 border-primary btn-sauter">Sauter</button></a>
+        </center>
+    </div>
+</header>
+</body>
+</html>

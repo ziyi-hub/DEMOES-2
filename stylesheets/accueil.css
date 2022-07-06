@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    display: initial;
+    justify-content: initial;
+    background-color: initial;
+}
+
+body > h1{
+    text-align:center;
+}
+
+#listeUL > li {
+    height: 180px;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+#listeUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+#listeUL li a {
+    width: 85%;
+    margin: 30px auto 40px;
+    height: inherit;
+    border-radius: 10px;
+    border: 1px solid #ddd; /* Add a border to all links */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: white; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+/* avoid to hidden by header */
+#listeUL li:nth-child(1) a {
+    margin-top: 100px;
+}
+
+
+#listeUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+.titre{
+    padding: 0 5% 0 5%;
+}
+
+h1{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: clamp(40px, 5vw, 70px);
+    font-weight: 700;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+h1 span{width:100%;position:relative}
+
+h1 span:before{
+    background: linear-gradient(45deg,#fc5c7d,#6a82fb,#fc5c7d);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    mix-blend-mode: screen;
+}
+
+footer{
+    z-index: 100;
+}
