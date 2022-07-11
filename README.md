@@ -15,4 +15,5 @@ Une application qui permet de visualiser l'environnement de chaque établissemen
 - Ajouter UX / UI et des messages lorsque les données GPS ne sont pas disponibles ou que le signal est très faible (en utilisant une propriété)
 - Ajout d'un message d'alerte lorsque la géolocalisation est désactivée (à partir des paramètres du téléphone ou de l'autorisation non accordée)
 - Z-fighting
+- Flèche en direction du POI le plus proche
 
