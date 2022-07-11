@@ -179,7 +179,9 @@ for(let i = 0; i < document.querySelectorAll(".dot").length; i++){
     document.querySelectorAll(".dot")[i].addEventListener("click", ()=>{currentSlide(i+1);})
 }
 
-
+/**
+ * il permet de revenir au page précédent correspondant
+ */
 document.querySelector(".btn-close").addEventListener("click", ()=>{
     let returnGeo = getCookie('returnGeo');
     if (returnGeo === "true"){
