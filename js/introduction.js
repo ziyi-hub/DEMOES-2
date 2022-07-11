@@ -58,7 +58,7 @@ function closeModal() {
 }
 
 /**
- * Passer la popup d'installation
+ * Display la popup d'installation
  */
 function displayImg(){
     document.querySelector(".alert-warning").style.display = "none";
@@ -127,7 +127,7 @@ function displayAndroid(){
 }
 
 /**
- * Si UL Maps est installé, cache le bouton d'installation
+ * Si UL Maps a été installé, cache le bouton d'installation
  */
 if(localStorage.getItem('appinstalled') === "true"){
     document.querySelector('#install').style.display = 'none';
