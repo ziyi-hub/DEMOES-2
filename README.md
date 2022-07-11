@@ -8,7 +8,7 @@ Une application qui permet de visualiser l'environnement de chaque établissemen
 - [CharlyLabIUTNC](https://github.com/CharlyLabIUTNC)
 
 ## Tâches à faire
-- Installation hors-ligne (Remplace tous les CDN)
+- Installation hors-ligne (PWA en mode déconnecté)
 - Création d'une API
 - Optimisation du temps de chargement du radar
 - Cliquer directement sur l’objet sans cursor
