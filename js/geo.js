@@ -66,9 +66,6 @@ function generatePOIS(places){
             cursor.setAttribute('material', 'color: red; shader: flat');
         }
 
-        image.addEventListener('loaded', () => {
-            window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'));
-        });
         scene.appendChild(image);
     });
 }
