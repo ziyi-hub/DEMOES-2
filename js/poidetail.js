@@ -1,6 +1,11 @@
 let place = loadPlaces();
 let images = place.carousel;
 
+/**
+ * Il permet de récupérer élément dans un cookie
+ * @param cname nom de cookie
+ * @return {string} valeur retourné
+ */
 function getCookie(cname) {
     let name = cname + "=";
     let ca = document.cookie.split(';');
