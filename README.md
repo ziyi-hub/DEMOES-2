@@ -8,8 +8,9 @@ Une application qui permet de visualiser l'environnement de chaque établissemen
 - [CharlyLabIUTNC](https://github.com/CharlyLabIUTNC)
 
 ## Tâches à faire
+- Remplace clé Google Maps API par clé d'IUT
 - Installation hors-ligne (PWA en mode déconnecté)
-- Création d'une API
+- Création d'une API en Node
 - Optimisation du temps de chargement du radar
 - Cliquer directement sur l’objet sans cursor
 - Ajouter UX / UI et des messages lorsque les données GPS ne sont pas disponibles ou que le signal est très faible (en utilisant une propriété)
