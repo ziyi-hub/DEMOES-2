@@ -18,5 +18,5 @@ Une application qui permet de visualiser l'environnement de chaque établissemen
 - Flèche en direction du POI le plus proche
 
 ## Plus infos
-- [Wiki DEMOES]([https://github.com/ziyi-hub](https://github.com/CharlyLabIUTNC/DEMOES/wiki))
+- [Wiki DEMOES](https://github.com/ziyi-hub](https://github.com/CharlyLabIUTNC/DEMOES/wiki)
 
