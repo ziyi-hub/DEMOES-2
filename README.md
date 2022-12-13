@@ -17,6 +17,6 @@ Une application qui permet de visualiser l'environnement de chaque établissemen
 - Z-fighting
 - Flèche en direction du POI le plus proche
 
-## Plus infos
-- [Wiki DEMOES](https://github.com/ziyi-hub](https://github.com/CharlyLabIUTNC/DEMOES/wiki)
+## Wikis
+- [Wiki DEMOES](https://github.com/CharlyLabIUTNC/DEMOES/wiki)
 
